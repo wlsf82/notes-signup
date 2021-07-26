@@ -1,0 +1,22 @@
+{
+  "name": "notes-signup",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate how to test signup with email confirmation code using cypress-mailosaur",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress.io",
+    "cypress-mailosaur",
+    "cy.handsOn",
+    "Talking About Testing"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.0.0",
+    "cypress-mailosaur": "^2.3.3",
+    "faker": "^5.5.3"
+  }
+}
